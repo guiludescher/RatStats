@@ -17,7 +17,7 @@ public class Jogador {
 		
 		System.out.println("Jogador " + this.nome + " criado!");
 		
-		//this.tempoTime = antatual (?) - anoBixo -- IMPLEMENTAR
+		//this.tempoTime = anoatual (?) - anoBixo -- IMPLEMENTAR
 	}
 
 	
