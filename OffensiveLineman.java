@@ -8,6 +8,10 @@ public class OffensiveLineman extends Jogador {
 	private int jdsPassadasEmCampo;
 	private int sacks;
 	
+	public OffensiveLineman(String nome, int numero, String posicao, int tempoTime) {
+		super(nome, numero, posicao, tempoTime);
+		
+	}
 	
 	public int getBadSnaps() {
 		return badSnaps;
@@ -68,11 +72,6 @@ public class OffensiveLineman extends Jogador {
 		this.sacks = sacks;
 	}
 
-
-	public OffensiveLineman(String nome, int numero, int tempoTime) {
-		super(nome, numero, tempoTime);
-		
-	}
 	
 
 }

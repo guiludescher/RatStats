@@ -8,14 +8,11 @@ public class WideReceiver extends SkillPosition{
 	private int jdsRecepcao;
 	private int tdsRecepcao;
 	
-
-	public WideReceiver(String nome, int numero, int tempoTime, boolean flanker) {
-		super(nome, numero, tempoTime);
+	public WideReceiver(String nome, int numero, String posicao, int tempoTime, boolean flanker) {
+		super(nome, numero, posicao, tempoTime);
 		this.flanker = flanker;
 	}
-	
-
-	
+		
 	public boolean isFlanker() {
 		return flanker;
 	}
@@ -28,40 +25,40 @@ public class WideReceiver extends SkillPosition{
 		return recepcoes;
 	}
 
-	public void setRecepcoes(int recepcoes) {
-		this.recepcoes = recepcoes;
+	public void addRecepcoes() {
+		this.recepcoes += 1;
 	}
 
 	public int getTargets() {
 		return targets;
 	}
 
-	public void setTargets(int targets) {
-		this.targets = targets;
+	public void addTargets() {
+		this.targets += 1;
 	}
 
 	public int getDrops() {
 		return drops;
 	}
 
-	public void setDrops(int drops) {
-		this.drops = drops;
+	public void addDrops() {
+		this.drops += 1;
 	}
 
 	public int getJdsRecepcao() {
 		return jdsRecepcao;
 	}
 
-	public void setJdsRecepcao(int jdsRecepcao) {
-		this.jdsRecepcao = jdsRecepcao;
+	public void plusJdsRecepcao(int jdsRecepcao) {
+		this.jdsRecepcao += jdsRecepcao;
 	}
 
 	public int getTdsRecepcao() {
 		return tdsRecepcao;
 	}
 
-	public void setTdsRecepcao(int tdsRecepcao) {
-		this.tdsRecepcao = tdsRecepcao;
+	public void addTdsRecepcao() {
+		this.tdsRecepcao += 1;
 	}
 
 }

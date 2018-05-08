@@ -7,57 +7,10 @@ public class Quarterback extends SkillPosition{
 	private int tdsPasse;
 	private int picks;
 	private int jdsPasse;
+	private int sacks;
 	
-	public int getPassesTotais() {
-		return passesTotais;
-	}
-
-	public void setPassesTotais(int passesTotais) {
-		this.passesTotais = passesTotais;
-	}
-
-	public int getPassesCompl() {
-		return passesCompl;
-	}
-
-	public void setPassesCompl(int passesCompl) {
-		this.passesCompl = passesCompl;
-	}
-
-	public int getPassesIncompl() {
-		return passesIncompl;
-	}
-
-	public void setPassesIncompl(int passesIncompl) {
-		this.passesIncompl = passesIncompl;
-	}
-
-	public int getTdsPasse() {
-		return tdsPasse;
-	}
-
-	public void setTdsPasse(int tdsPasse) {
-		this.tdsPasse = tdsPasse;
-	}
-
-	public int getPicks() {
-		return picks;
-	}
-
-	public void setPicks(int picks) {
-		this.picks = picks;
-	}
-
-	public int getJdsPasse() {
-		return jdsPasse;
-	}
-
-	public void setJdsPasse(int jdsPasse) {
-		this.jdsPasse = jdsPasse;
-	}
-
-	public Quarterback(String nome, int numero, int tempoTime) {
-		super(nome, numero, tempoTime);
+	public Quarterback(String nome, int numero, String posicao, int tempoTime) {
+		super(nome, numero, posicao, tempoTime);
 		this.passesTotais = 0;
 		this.passesCompl = 0;
 		this.passesIncompl = 0;
@@ -66,5 +19,59 @@ public class Quarterback extends SkillPosition{
 		this.jdsPasse = 0;
 	}
 	
+	public int getPassesTotais() {
+		return passesTotais;
+	}
 
+	public void addPassesTotais() {
+		this.passesTotais += 1;
+	}
+
+	public int getPassesCompl() {
+		return passesCompl;
+	}
+
+	public void addPassesCompl() {
+		this.passesCompl += 1;
+	}
+
+	public int getPassesIncompl() {
+		return passesIncompl;
+	}
+
+	public void addPassesIncompl() {
+		this.passesIncompl += 1;
+	}
+
+	public int getTdsPasse() {
+		return tdsPasse;
+	}
+
+	public void addTdsPasse() {
+		this.tdsPasse += 1;
+	}
+
+	public int getPicks() {
+		return picks;
+	}
+
+	public void addPicks() {
+		this.picks += 1;
+	}
+
+	public int getJdsPasse() {
+		return jdsPasse;
+	}
+
+	public void plusJdsPasse(int jdsPasse) {
+		this.jdsPasse += jdsPasse;
+	}
+
+	public int getSacks() {
+		return sacks;
+	}
+
+	public void setSacks(int sacks) {
+		this.sacks = sacks;
+	}
 }

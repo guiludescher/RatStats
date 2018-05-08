@@ -2,16 +2,17 @@
 public class Jogador {
 	
 	private String nome;
-	
+	private String posicao;
 	private int numero;
 	private int tempoTime;
 	private int nSnaps;
 	private boolean jogando;
 	
-	public Jogador(String nome, int numero, int tempoTime){
+	public Jogador(String nome, int numero, String posicao, int tempoTime){
 		this.nome = nome;
 		this.numero = numero;
 		this.tempoTime = tempoTime;
+		this.setPosicao(posicao);
 		this.nSnaps = 0;
 		this.jogando = false;
 		
@@ -59,6 +60,16 @@ public class Jogador {
 
 	public void setJogando(boolean jogando) {
 		this.jogando = jogando;
+	}
+
+
+	public String getPosicao() {
+		return posicao;
+	}
+
+
+	public void setPosicao(String posicao) {
+		this.posicao = posicao;
 	}
 
 	
