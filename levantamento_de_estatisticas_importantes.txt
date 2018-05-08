@@ -1,0 +1,197 @@
+Estatisticas Importantes:
+
+	Ataque:
+
+		Jardas terrestres
+		Jardas aéreas
+		Jardas totais
+		Pontos marcados
+		Quarterbacks:
+			TDs
+			Jardas
+			Interceptações
+			Tentativas de Passe (até dez jardas/20+/30+/geral)
+			Passes Completos (até dez jardas/20+/30+/geral)
+			Porcentagem de Acertos (até dez jardas/20+/30+/geral)
+			Sacks
+
+		Wide Recievers:
+			
+Alvo
+
+			Recepção
+			
+Jardas
+			
+Jardas após recepção
+			
+TDs
+			
+Fumbles
+
+		Tight Ends:
+			Alvo
+			
+Recepção
+			Jardas
+			
+Jardas pós recepção
+			
+Touchdown
+			
+Fumbles
+
+			Bloqueios garantidos
+
+		Running Backs:
+			Tentativas
+
+			Jardas
+
+			Jardas por carregada
+
+			0-5 corridas
+
+			5-10 corridas 
+
+			10+ corridas 
+
+			Tds
+
+			Jardas pós contato
+
+			Fumbles
+
+		Offensive Linemen (Center/Guards/Offensive Tackles):
+			Sacks permitidos
+ (por esse OL)
+			Pankakes
+			
+Jardas terrestres (com esse OL em campo)
+			
+Jardas aéreas (com esse OL em campo)
+			Bad snaps (Center)
+			
+
+	Defesa:
+
+		Pontos dos Oponentes
+		Pontos dos Oponentes por jogo
+		Jardas Aéras levadas
+		Defensive Takcle:
+			Snaps jogados
+			
+Apressar o QB 
+			
+Sacks
+			
+Tackles
+			
+Tackles for loss
+
+			Fumbles forçados
+
+		Defensive Ends:
+			Snaps jogados
+			
+Apressar o QB 
+			
+Sacks
+			
+Tackles
+			
+Tackles for loss
+
+			Fumbles forçados
+
+		Linebackers(Inside/Outside):
+			Sacks 
+			Tackles
+			
+Tackles for loss
+			
+Fumbles forçados
+			Tips 
+			Interceptações
+
+		Cornerbacks:
+			Sacks
+			
+Tackles
+			
+Tackles for loss
+			
+Fumbles forçados
+
+			Tips
+			
+Interceptações
+
+			Target na zona
+
+		Safeties (Strong/Weak/Free):
+			Sacks
+			Tackles
+			
+Tackles for loss
+			
+Fumbles forçados
+
+			Target na zona
+			Tips
+			
+Interceptações
+
+			
+
+	Times Especiais:
+		
+		Kickoff:
+			Retorno nosso (numero de retornos/jardas retornadas/jardas média/ TDs)
+			Retorno do oponente (numero de retornos/jardas retornadas/jardas média/ TDs)
+		
+		Punt:
+			Retorno nosso (numero de retornos/jardas retornadas/jardas média/ TDs)
+			Retorno do oponente (numero de retornos/jardas retornadas/jardas média/ TDs)			
+
+		Field Goals:
+			FG (Att/Comp/Pctg/bloqueados/Bad Snaps)(25jardas/25+/35+)
+			FG do oponente (Att/Comp/Pctg/bloqueados/Bad Snaps)(25jardas/25+/35+)
+
+		Extra Points:
+			XP(Att/Comp/Pctg/bloqueados/Bad Snaps)
+			XP do oponente (Att/Comp/Pctg/bloqueados/Bad Snaps)
+
+		Kickers:
+			FG(Att/Comp/Pctg)(25jardas/25+/35+)
+			Touchbacks 
+			Número de Kickoffs
+			Distância do Kickoff
+			Distância Média
+			
+		Punters:
+			Número de punts
+			Jardas por punt
+
+			Punts dentro da de 10 (flag) 
+			Dentro da de 20 (fa)
+
+		Retornadores de Punt:
+			Jardas totais retornadas
+			Número de retornos
+			Jardas por retorno
+			Retornos pra TD
+
+		Retornadores de Punt:
+			Jardas totais retornadas
+			Número de retornos
+			Jardas por retorno
+			Retornos pra TD
+			
+		Longsnappers:
+			 Bad Snaps
+	
+Problemas não mensuráveis:
+	Release
+	bloqueio de wr
+	hang lime de punt e kickoff
